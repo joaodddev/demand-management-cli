@@ -1,20 +1,23 @@
-# 🚀 Demand Management CLI (Java Puro)
+# 🚀 Demand Management CLI
 
-Sistema de gestão de demandas desenvolvido em Java puro, com foco em arquitetura modular, reutilização de código e execução em terminal.
+![Java](https://img.shields.io/badge/Java-17-blue)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
-## 🧠 Motivação
-Projeto inspirado em problemas reais do ambiente operacional, como controle de demandas, priorização e organização de atividades.
+Sistema CLI em Java puro para gestão de demandas com arquitetura modular e persistência em arquivo.
 
-## ⚙️ Funcionalidades
+## ✨ Funcionalidades
 
 - Menu interativo reutilizável
-- Submenus dinâmicos
+- Submenus
 - Logger com timestamp
+- Persistência em CSV
 - Input seguro
-- Interface com cores no terminal
+- Interface com cores
 
-## 🧱 Arquitetura
+## 📂 Estrutura
 
-- `menu/` → núcleo do framework
-- `menus/` → organização dos módulos
-- `util/` → utilitários reutilizáveis
+- `menu/` → framework
+- `menus/` → módulos
+- `util/` → utilitários
+- `repository/` → persistência
+- `model/` → entidades
